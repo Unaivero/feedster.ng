@@ -3,10 +3,10 @@ app.controller('PostController', ['$scope', function($scope) {
     {
       author: {
         name: 'Calvin Broadus, Jr.',
-        avatar: 'img/cbj.svg'
+        avatar: 'https://cdn.pixabay.com/photo/2016/04/01/10/11/avatar-1299805_960_720.png'
       },
       comment: {
-        img: 'img/dog.jpg',
+        img: 'https://cdn.pixabay.com/photo/2016/01/19/17/54/dog-1149964_960_720.jpg',
         text: 'How much for that dogg in the window?'
       }
     },
@@ -15,7 +15,7 @@ app.controller('PostController', ['$scope', function($scope) {
     {
       author: {
         name: 'Matthew Healy',
-        avatar: 'img/mh.svg'
+        avatar: 'https://cdn.pixabay.com/photo/2016/04/01/10/11/avatar-1299805_960_720.png'
       },
       comment: {
         text: 'I used to have a recurring dream when I was younger.'
